@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class task2frfr {
+    public static void main(String[] args) {
+        String separator = args [0];
+
+
+        Scanner scanner = new Scanner(System.in);
+
+            String a = scanner.nextLine().toLowerCase();
+
+            String b = scanner.nextLine().toLowerCase();
+
+            String c = scanner.nextLine().toLowerCase();
+
+            scanner.close();
+
+
+            System.out.print(a + separator + b + separator + c);
+
+
+        }
+    }
+
